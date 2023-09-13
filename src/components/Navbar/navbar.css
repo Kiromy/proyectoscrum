@@ -1,0 +1,31 @@
+nav {
+    background-color: purple;
+}
+
+/* Estilo de la lista no ordenada (ul) */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Estilo de los elementos de la lista (li) */
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de los enlaces (a) */
+nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* Cambio de color de enlace al pasar el mouse sobre él */
+nav a:hover {
+    background-color: #555;
+}
